@@ -2,7 +2,7 @@
 # ansbile -m copy -a "src=~/master.gitconfig dest=~/.gitconfig" localhost
 
 - name: Ensure ~/.gitconfig copied from ~/.master.gitconfig
-  gather_facts: false
+  # gather_facts: false
   hosts: localhost
   tasks: 
   - copy: src="~/master.gitconfig" dest="~/.gitconfig"
