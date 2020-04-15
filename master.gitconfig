@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+[credential "github.com"]
+	useHttpPath = true
+[user]
+	email = raymond.sarmiento@yahoo.com.ph
+	name = raymonds1221
